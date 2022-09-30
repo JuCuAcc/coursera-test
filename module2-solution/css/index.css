@@ -1,0 +1,121 @@
+﻿/*Prepared By MD. Jashim Uddin*/
+
+* {
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    padding: 0 20px;
+}
+
+.row {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-black {
+    color: black;
+}
+
+.text-white {
+    color: white;
+}
+
+.menu-item-title {
+    font-weight: bold;
+    font-size: 20px;
+    width: 115px;
+    height: auto;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.menu-item-p {
+    margin-top: 34px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.menu-item {
+    position: relative;
+    border: 2px solid;
+    padding: 0 10px;
+    background: #999999;
+}
+
+.bg-red {
+    background: #C14543;
+}
+
+.bg-pink {
+    background: #C48C8C;
+}
+
+.bg-yellow {
+    background: #E5D198;
+}
+
+.padding-10xp {
+    padding: 10px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6, .col-md-12 {
+        float: left;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-12 {
+        margin-left: -10px;
+        width: 100%;
+    }
+
+    .name3 {
+        margin-right: 65px;
+        width: 100px;
+    }
+}
+
+/********** Mobile devices only **********/
+@media (min-width: 0px) and (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+        width: 100%;
+    }
+
+    .content-name {
+        margin-right: 30px;
+    }
+}
