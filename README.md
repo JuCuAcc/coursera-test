@@ -4,3 +4,6 @@ https://jucuacc.github.io/coursera-test/site/
 
 module2-solution
 https://jucuacc.github.io/coursera-test/module2-solution/
+
+module3-solution
+https://jucuacc.github.io/coursera-test/module3-solution/
